@@ -1,0 +1,113 @@
+.special{
+    width: 100%;
+    max-width: 1020px;
+    animation: 2s slide-left;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+}
+
+@keyframes slide-left{
+    from{
+        margin-left: 100%;
+        width: 100%;
+        max-width: 1020px;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.picture{
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    vertical-align: center;
+}
+.effect:hover{
+    width:300px;
+    height:300px;
+    transition-duration: 2s;
+    transition-timing-function:ease;
+
+}
+
+
+@keyframes scale{
+    from{transform:scale(1,1)}
+    to{transform:scale(5,5))}
+}
+
+section{
+    font-size: 8pt;
+    column-count: 2;
+    column-gap: 20px;
+    column-width: 200px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+}
+
+div.wrap{
+    width: 1020px;
+    margin: 0 auto;
+    max-width: 1020px;
+}
+
+p{
+    font-size: 8 pt;
+    color:black;
+    font-family:  'Work Sans', sans-serif;
+    font-style: normal;
+    margin: 0 auto;
+    max-width: 1080px;
+}
+
+h1{
+    font-family:'Popppins', sans-serif;
+    font-style: italic;
+    width: 1020px;
+    margin: 0 auto;
+    max-width: 1020px;
+}
+
+h3{
+    font-family:'Popppins', sans-serif;
+    font-style: italic;
+    width: 1020px;
+    margin: 0 auto;
+    max-width: 1020px;
+}
+
+body {
+    background-color: white;
+    text-align:left;
+    width: 1020px;
+    margin: 0 auto;
+    max-width: 1020px;
+}
+
+input[type=submit] {
+    width: 100x;
+    height: 80px; 
+    background-color:green;
+    color: white;
+    padding: 10px 20px;
+    border: solid;
+    border-color: black;
+    border-radius: 4 px;
+}
+
+input[type=reset] {
+    width: 100px;
+    height: 80px; 
+    background-color:red;
+    color: white;
+    padding: 10px 20px;
+    border: solid;
+    border-color: black;
+    border-radius: 4 px;
+}
