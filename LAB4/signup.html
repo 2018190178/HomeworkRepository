@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>dainy's little shop</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap" rel="stylesheet">    
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <h1> dainy's little shop</h1>
+        <p>
+            <a href="index.html">Main Page</a>
+            Sign Up
+            <a href="login.html">Log In</a>
+        </p>
+        <hr class="solid">
+        <p>
+            회원정보(필수)
+        </p>
+        <form method = "post"> 
+            <p>
+                <label>Name:
+                    <input type ="text" autofocus />
+                </label>
+            </p>
+            <p>
+                <label>Date of Birth:
+                    <input type ="date" autocomplete />
+                        (yyyy-mm-dd)
+                </label>
+            </p>
+            <p>
+                <label>Grade:
+                    <input type ="number" min="1" max ="7" step ="1" />
+                </label>(Enter a number between 0 and 7)
+            </p>
+            <p> 
+                <label>Phone Number:
+                    <input type ="tel" pattern = "\d{3}+\d{4}-\d{4}">
+                    (###-####-####)
+                </label>
+            </p>
+            <p>
+                <label>User ID:
+                    <input type ="email" placeholder="name@domain.com"
+                        required /> (name@domain.com)
+                </label>
+            </p>
+            <p>
+                <label>Password:
+                    <input type ="text" required />
+                </label>
+            </p>
+            <p>
+                <label>Confirm Password:
+                    <input type ="text" required />
+                </label>
+            </p>
+            <p>
+                <input type = "submit" value = "Submit"/>
+                <input type = "reset" value = "Clear"/>
+            </p>
+            <hr class="solid">
+        </form>
+    </body>
+
+</html>
