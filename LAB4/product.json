@@ -1,0 +1,74 @@
+[
+    {
+      "name" : "green glow",
+      "price" : 400,
+      "image" : "greenglow.jpg",
+      "type" : "dunk"
+    },
+    {
+      "name" : "ambush royal blue",
+      "price" : 800,
+      "image" : "ambushroyalblue.jpg",
+      "type" : "dunk"
+    },
+    {
+      "name" : "KO chicago",
+      "price" : 375,
+      "image" : "kochicago.jpg",
+      "type" : "jordan"
+    },
+    {
+      "name" : "retro black and white",
+      "price" : 200,
+      "image" : "retroblacknwhite.jpg",
+      "type" : "dunk"
+    },
+    {
+      "name" : "retro hyper royal",
+      "price" : 400,
+      "image" : "retrohyperroyal.jpg",
+      "type" : "jordan"
+    },
+    {
+      "name" : "paris",
+      "price" : 800,
+      "image" : "paris.jpeg",
+      "type" : "jordan"
+    },
+    {
+      "name" : "disrupt siren red",
+      "price" : 300,
+      "image" : "disruptsirenred.jpg",
+      "type" : "dunk"
+    },
+    {
+      "name" : "two in one",
+      "price" : 200,
+      "image" : "twoinone.jpg",
+      "type" : "converse"
+    },
+    {
+      "name" : "moonstone violet",
+      "price" : 100,
+      "image" : "moonstoneviolet.jpg",
+      "type" : "runstar hike"
+    },
+    {
+      "name" : "may zoom",
+      "price" : 800,
+      "image" : "mayzoom.jpg",
+      "type" : "jordan"
+    },
+    {
+      "name" : "reagan",
+      "price" : 200,
+      "image" : "reagan.jpg",
+      "type" : "uptempo"
+    },
+    {
+      "name" : "football grey",
+      "price" : 300,
+      "image" : "carrotcoriander.jpg",
+      "type" : "dunk"
+    }
+  ]

@@ -1,3 +1,9 @@
+
+.post{
+    padding: 20px;
+    margin: 10px;
+}
+
 .special{
     width: 100%;
     max-width: 1020px;
@@ -52,9 +58,18 @@ section{
 }
 
 div.wrap{
-    width: 1020px;
     margin: 0 auto;
-    max-width: 1020px;
+    font-size: 10pt;
+    font-family: 'Work Sans', sans-serif;
+}
+
+aside{
+    width: 30%;
+    padding-right: 15px;
+    margin-right: 15px;
+    float: left;
+    border: 5pt;
+    border-color: black;
 }
 
 p{
@@ -83,7 +98,7 @@ h3{
 }
 
 body {
-    background-color: white;
+    background-color: rgb(201, 213, 250);
     text-align:left;
     width: 1020px;
     margin: 0 auto;
@@ -91,7 +106,7 @@ body {
 }
 
 input[type=submit] {
-    width: 100x;
+    width: 100px;
     height: 80px; 
     background-color:green;
     color: white;
@@ -111,3 +126,4 @@ input[type=reset] {
     border-color: black;
     border-radius: 4 px;
 }
+
